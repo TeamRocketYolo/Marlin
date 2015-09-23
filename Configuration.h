@@ -86,7 +86,7 @@
 #define DELTA_DIAGONAL_ROD 333.0 // mm
 
 // Horizontal offset from middle of printer to smooth rod center.
-#define DELTA_SMOOTH_ROD_OFFSET 198.8 // mm -.2, -1, -.2, -.2, -.3, -.2
+#define DELTA_SMOOTH_ROD_OFFSET 196.8 // mm -.2, -1, -.2, -.2, -.3, -.2; 198.8
 
 // Horizontal offset of the universal joints on the end effector.
 #define DELTA_EFFECTOR_OFFSET 19.9 // mm
@@ -343,7 +343,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = false; // set to true to invert the logic o
 // For deltabots this means top and center of the cartesian print volume.
 #define MANUAL_X_HOME_POS 0
 #define MANUAL_Y_HOME_POS 0
-#define MANUAL_Z_HOME_POS 291.55-85.78-4.2  // For delta: Distance between nozzle and print surface after homing.
+#define MANUAL_Z_HOME_POS 188.71 //old: 291.55-85.78-4.2-13+0.1  For delta: Distance between nozzle and print surface after homing. +5 for delta radius adjustment
 
 #define AUTOLEVEL_GRID 32  // Distance between autolevel Z probing points, should be less than print surface radius/3.
 
