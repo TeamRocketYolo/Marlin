@@ -343,7 +343,7 @@ const bool Z_MAX_ENDSTOP_INVERTING = false; // set to true to invert the logic o
 // For deltabots this means top and center of the cartesian print volume.
 #define MANUAL_X_HOME_POS 0
 #define MANUAL_Y_HOME_POS 0
-#define MANUAL_Z_HOME_POS 188.71 //old: 291.55-85.78-4.2-13+0.1  For delta: Distance between nozzle and print surface after homing. +5 for delta radius adjustment
+#define MANUAL_Z_HOME_POS 200 //old: 291.55-85.78-4.2-13+0.1  For delta: Distance between nozzle and print surface after homing. +5 for delta radius adjustment
 
 #define AUTOLEVEL_GRID 32  // Distance between autolevel Z probing points, should be less than print surface radius/3.
 
